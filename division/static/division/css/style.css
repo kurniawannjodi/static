@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+.narrow:before {
+  display: block;
+  content: "";
+  height: 4.5rem;
+}
+.green-text {
+  color: #1ebba3 !important;
+  font-weight: 700;
+}
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 1.9rem;
+}
+.heading-underline {
+  width: 15rem;
+  height: .2rem;
+  background-color: #1ebba3;
+  margin: 0 auto 2rem;
+}
+/*---Navigation---*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .8rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-brand {
+  padding: 0;
+}
+.navbar-brand img {
+  height: 3.6rem;
+}
+.navbar-nav li {
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #1ebba3;
+}
+
+/*--- Landing Page ---*/
+.home-inner {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  background-image: url('../img/img6.jpeg');
+}
+.insight {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: .1rem;
+}
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3.rem;
+  font-size: 1.1rem;
+}
+
+/*-- About Page --*/
+.about-image img {
+  width: 100%
+}
+.about-ul {
+  list-style: none;
+}
+.about-ul li::before {
+  content: "\2022";
+  color: #1ebba3;
+  font-weight: bold;
+  display: inline-block;
+  width: 1.2em;
+  margin-left: -1em;
+}
+
+/* -- Services Page --*/
+.services-inner {
+  background-image: url('../img/img10.jpeg');
+}
+
+/* -- Our Projects --*/
+.ourproject-icon img {
+  width: 100%;
+}
+.ourproject-icon:hover {
+  cursor: pointer;
+}
+.ourproject-inner {
+  background-image: url('../img/img8.jpeg');
+}
+
+
+/* -- Contact Page --*/
+.contact-icon, .contact-icon p {
+  background-color: #1ebba3;;
+  padding-top: 1rem;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+.contact-icon img {
+  width: 4rem;
+  margin-bottom: 0;
+}
+.form-group input, textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.contact-form input[type="text"], .contact-form input[type="email"] {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  color: #444;
+  height: 40px;
+  margin-bottom: 16px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.contact-form textarea  {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  color: #444;
+  height: 140px;
+  padding: 20px;
+  width: 100%;
+}
+
+.contact-form button[type="submit"] {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  color: #444;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 8px;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  border-radius: 30px;
+}
+.contact-form label {
+  display: none;
+}
+.contact-form button[type=submit]:hover {
+  color: #fff;
+  border: 1px solid #1ebba3;;
+  background: #1ebba3;;
+}
+.contact-image img {
+  width: 14rem;
+}
+.jumbotron {
+  margin: 0;
+  background: #f4f4f48f;
+}
+.contact-instagram  img {
+  float: left;
+  padding: 1px;
+  width: 33%;
+}
+.footer-head p {
+  color: #444;
+}
+.footer-head h4 {
+  color: #444;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.footer-content {
+  display: block;
+  overflow: hidden;
+}
+.instagram-photo-above {
+  padding-bottom: 0px !important;
+}
+.instagram-photo-above a {
+  padding-bottom: 0px !important;
+  display: inline;
+}
+.instagram-photo-below {
+  padding-top: 0px !important;
+}
+.end-footer, .end-footer p {
+  background: #f3f3f3ff;
+  padding: 0.5em;
+  margin: 0;
+}
